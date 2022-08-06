@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./favicon/favicon.png" type="image/png" sizes="16x16">  
+</head>
+<body>
+    <div class="container">
+        <header id="main-header">
+            <h1>Original Pianos</h1>
+            <nav>
+                <a href="#features" translate="no">Features</a>
+                <a href="#how it works" translate="no">How It Works</a>
+                <a href="#pricing" translate="no">Pricing</a>
+            </nav>
+        </header>
+        <section id="get-started">
+            <h1>Handcrafted, Home-made masterpieces</h1>
+            <input type="email" id="input-email" placeholder="Enter your email address" autofocus>
+            <button type="submit">GET STARTED</button>
+        </section>
+        <!--  features  -->
+        <section id="features">
+            <div class="one-feature">
+                <img src="icons/delivery-truck.svg" alt="icon" class="description-icon">
+                <div class="description">
+                    <header>
+                        <h1>Fast Shipping</h1>
+                    </header>
+                    <main>
+                        <p>We make sure you receive your piano as soon as we have finished making it. We also provided free returns if you're not satisfied.</p>
+                    </main>
+                </div>      
+            </div>
+            <div class="one-feature">
+                <img src="icons/box-open.svg" alt="icon" class="description-icon">
+                <div class="description">
+                    <header>
+                        <h1>Quality Assurance</h1>
+                    </header>
+                    <main>
+                        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                    </main>
+                </div>
+            </div>
+        </section>
+        <!--  pricing section -->
+        <section id="pricing">
+            <div class="box">
+                <header>
+                    <h1>Roland Piano</h1>
+                </header>
+                <main>
+                    <img src="img/piano-roland.jpeg" alt="product">
+                    <h2 id="price">$800</h2>
+                    <button type="button">Buy now</button>
+                </main>
+            </div>
+            <div class="box">
+                <header>
+                    <h1>Yamaha Piano</h1>
+                </header>
+                <main>
+                    <img src="img/piano-yamaha.jpeg" alt="product">
+                    <h2 id="price">$950</h2>
+                    <button type="button">Buy now</button>
+                </main>
+            </div>
+              <div class="box">
+                <header>
+                    <h1>Korg Piano</h1>
+                </header>
+                <main>
+                    <img src="./img/piano-korg.jpeg" alt="product">
+                    <h2 id="price">$1.050</h2>
+                    <button type="button">Buy now</button>
+                </main>
+            </div>
+            <div class="box">
+                <header>
+                    <h1>Casio Piano</h1>
+                </header>
+                <main>
+                    <img src="./img/piano-casio.jpeg" alt="product">
+                    <h2 id="price">$1.150</h2>
+                    <button type="button">Buy now</button>
+                </main>
+            </div>
+        </section>
+        <footer>
+            <div class="policy">
+                <span translate="no">Privacy</span>
+                <span translate="no">Terms</span>
+                <span translate="no">Contact</span>
+            </div>
+            <div class="copyright">
+                <p>&copy; Copyright <span id="year"></span>, Original Pianos</p>
+            </div>
+        </footer>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
